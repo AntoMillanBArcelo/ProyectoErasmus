@@ -1,7 +1,7 @@
 <?php
 if (isset($_GET['menu'])) {
     if ($_GET['menu'] == "inicio") {
-        require_once 'index.php';
+        require_once './Vistas/Principal/inicio.php';
     }
     if ($_GET['menu'] == "login") {
         require_once './Vistas/Login/autentifica.php';
@@ -21,12 +21,11 @@ if (isset($_GET['menu'])) {
     if ($_GET['menu'] == "listadovacunas") {
         require_once './Vistas/Mantenimiento/listadovacunas.php';
      
-    }
-
-    
-
-    
+    } 
 }
-
+else
+{
+    require_once './Vistas/Principal/inicio.php';
+}
     
     //Añadir otras rutas
