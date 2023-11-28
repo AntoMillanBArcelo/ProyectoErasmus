@@ -3,8 +3,8 @@ class Autocargador
 {
     public static function autocargar()
     {
-
-        spl_autoload_register(function($clase){
+        spl_autoload_register(function($clase)
+        {
             $baseDir = $_SERVER['DOCUMENT_ROOT'] . '/ProyectoErasmus/';
             $directorios = [
                 'Api',
@@ -14,9 +14,8 @@ class Autocargador
                 'db',
                 'helper',
                 'js',
-                'vistas',
-                'plantilla',
-                'repositorio',
+                'Vistas',
+                'repositorios',
                 'servidor',
                 'cargador',
                 'img'

@@ -4,10 +4,10 @@ if (isset($_GET['menu'])) {
         require_once './Vistas/Principal/inicio.php';
     }
     if ($_GET['menu'] == "login") {
-        require_once './Vistas/Login/autentifica.php';
+        require_once './Vistas/Principal/login.php';
     }
-    if ($_GET['menu'] == "cerrarsesion") {
-        require_once './Vistas/Login/cerrarsesion.php';
+    if ($_GET['menu'] == "register") {
+        require_once './Vistas/Principal/register.php';
      
     }
     if ($_GET['menu'] == "mantenimiento") {

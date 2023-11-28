@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="stylesheet" href="css/cssIndex.css">
 </head>
 <body>
     <video id="video-background" autoplay muted loop>
